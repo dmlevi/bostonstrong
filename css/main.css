@@ -63,27 +63,40 @@ table {
 
 hgroup {
     text-align: center;
-    color: white;
-    font-family: "proxima-nova",sans-serif;
 }
 
 header {
     padding: 100px 0 60px;
+    font-family: "proxima-nova",sans-serif;
+    color: white;
+    text-align: center;
 }
 
 header h2 {
-    font-size: 48px;
-    font-weight: 100;
+    font-size: 42px;
+    text-shadow: 0 0 25px #000; 
 }
 
 h1 {
     font-size: 200px;
     margin: 0 auto;
+    text-shadow: 0 0 50px #000; 
 }
 
 h3 {
-    font-size: 28px;
- font-family: Avenir;
+    margin: 40px;
+    font-size: 22px;
     color: white;
-    text-align: center
+    text-align: center;
+}
+
+.sports {
+    background: url(../img/sports.png) no-repeat;
+    width: 648px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.heroes {
+    background-color: #ed5151;
 }
