@@ -88,7 +88,6 @@ h1 {
 }
 
 h3 {
-    margin: 40px;
     font-size: 22px;
     color: white;
     text-align: center;
@@ -102,8 +101,27 @@ h3 {
 }
 
 .heroes {
-    background-color: #ed5151;
-    padding: 100px 0;
+    background: rgb(41,63,76); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5M2Y0YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMjQ5NTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(41,63,76,1) 0%, rgba(50,73,86,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(41,63,76,1)), color-stop(100%,rgba(50,73,86,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(41,63,76,1) 0%,rgba(50,73,86,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(41,63,76,1) 0%,rgba(50,73,86,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(41,63,76,1) 0%,rgba(50,73,86,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(41,63,76,1) 0%,rgba(50,73,86,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#293f4c', endColorstr='#324956',GradientType=0 ); /* IE6-8 */
+    padding: 100px 0 0;
+}
+
+#skyline-blue {
+    background: url(../img/skyline-blue.png) no-repeat;
+    height: 488px;
+}
+
+#skyline-grey {
+    background: url(../img/skyline-grey.png) no-repeat;
+    height: 488px;
 }
 
 .heroes h2 {
@@ -113,15 +131,8 @@ h3 {
     color: white;
 }
 
-.heroes h2 span {
-    font-size: 200px;
-    margin: 40px 0;
-    display: block;
-    text-align: center;
-}
-
-.thank {
-    background: white;
+.bravery {
+    background: #eee;
 }
 
 .thank h2 {
@@ -131,7 +142,7 @@ h3 {
 }
 
 .support {
-    background: blue;
+    background: #740000;
 }
 
 .share {
