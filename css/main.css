@@ -51,7 +51,6 @@ table {
 */
 
 
-
 body {
         font-family: "proxima-nova",sans-serif;
 }
@@ -64,7 +63,6 @@ body {
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale');
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale')";
-    height: 70%;
 }
 
 hgroup {
@@ -79,18 +77,18 @@ header {
 }
 
 header h2 {
-    font-size: 42px;
+    font-size: 2.625em; /*42/16*/
     text-shadow: 0 0 25px #000; 
 }
 
 header h1 {
-    font-size: 200px;
+    font-size: 13.333333333em; /*200/16*/
     margin: 0 auto;
     text-shadow: 0 0 50px #000; 
 }
 
 header h3 {
-    font-size: 22px;
+    font-size: 1.375em; 
     color: white;
     text-align: center;
 }
@@ -125,7 +123,7 @@ header h3 {
 .heroes hgroup h2 {
     color: white;
     font-size: 90px;
-    margin: 30px 0;
+    margin: 30px auto;
 }
 
 
@@ -141,7 +139,7 @@ header h3 {
 }
 
 .heroes h2 {
-    font-size: 22px;
+    font-size: 1.375em; 
     text-align: center;
     font-family: "proxima-nova",sans-serif;
     color: white;
@@ -151,18 +149,21 @@ header h3 {
     background: #eee;
 }
 
-.thank h2 {
-    text-align: center;
-    padding: 100px 0;
-    font-size: 150px;
+.bravery hgroup h3 {
+    font-size: 2.5em;
+    color: #a9b6c0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.bravery hgroup h2 {
+    font-size: 4.375em;
+    color: #204665;
+    font-weight: 400;
 }
 
 .support {
     background: #740000;
-}
-
-.share {
-    padding: 20px 80px;
 }
 
 .twitter-timeline {
@@ -199,4 +200,16 @@ header h3 {
 
 #help-button a:hover {
   background: #e62097;
+}
+
+.row-fluid li {
+    text-align: center;
+}
+
+.row-fluid li {
+    margin: 20px 0;
+}
+
+.share {
+    padding: 20px 200px;
 }
