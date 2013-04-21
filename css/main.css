@@ -171,3 +171,32 @@ header h3 {
     margin: 0 auto;
     display: block;
 }
+
+#help-btn {
+    background: #ddd;
+}
+
+#help-btn {
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 10px 0px #570000;
+    -moz-box-shadow: 0px 10px 0px #570000;
+    box-shadow: 0px 10px 0px #570000;
+    border: solid #5f0c0c 1px;
+    background: #ddd;
+}
+
+#help-btn a {
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #690d0d;
+    font-size: 36px;
+}
+
+#help-button a:hover {
+  background: #e62097;
+}
