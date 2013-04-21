@@ -111,7 +111,7 @@ header h3 {
     background: -ms-linear-gradient(top,  rgba(41,63,76,1) 0%,rgba(50,73,86,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(41,63,76,1) 0%,rgba(50,73,86,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#293f4c', endColorstr='#324956',GradientType=0 ); /* IE6-8 */
-    padding: 100px 0 0;
+    padding-top: 70px;
 }
 
 .heroes hgroup h3 {
@@ -130,6 +130,7 @@ header h3 {
 #skyline-blue {
     background: url(../img/skyline-blue.png) no-repeat;
     height: 488px;
+    margin-top: -200px;
 }
 
 #skyline-grey {
@@ -160,4 +161,11 @@ header h3 {
 
 .share {
     padding: 20px 80px;
+}
+
+.twitter-timeline {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
 }
