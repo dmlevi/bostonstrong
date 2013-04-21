@@ -50,6 +50,10 @@ table {
 =========Custom CSS ===========================
 */
 
+body {
+        font-family: "proxima-nova",sans-serif;
+}
+
 .main-background-image {
     background: url(../img/Boston.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -99,4 +103,33 @@ h3 {
 
 .heroes {
     background-color: #ed5151;
+    padding: 100px 0;
+}
+
+.heroes h2 {
+    font-size: 22px;
+    text-align: center;
+    font-family: "proxima-nova",sans-serif;
+    color: white;
+}
+
+.heroes h2 span {
+    font-size: 200px;
+    margin: 40px 0;
+    display: block;
+    text-align: center;
+}
+
+.thank {
+    background: white;
+}
+
+.thank h2 {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 150px;
+}
+
+.support {
+    background: blue;
 }
