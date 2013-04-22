@@ -63,6 +63,7 @@ body {
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale');
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale')";
+    height: 70%;
 }
 
 hgroup {
@@ -117,13 +118,13 @@ header h3 {
 .heroes hgroup h3 {
     color: #5682a5;
     font-weight: 200;
-    font-size: 46px;
+    font-size: 2.875em; 
 }
 
 .heroes hgroup h2 {
     color: white;
-    font-size: 90px;
-    margin: 30px auto;
+    font-size: 5.625em;
+    margin: 30px auto; 
 }
 
 
@@ -205,10 +206,6 @@ header h3 {
     line-height: 1.4em;
 }
 
-#help-button a:hover {
-  background: #e62097;
-}
-
 .share {
     position: relative;
     top: 400px;
@@ -227,4 +224,97 @@ header h3 {
 
 .row-fluid li {
     margin: 20px 0;
+}
+
+@media (max-width: 940px) {
+
+
+header h1 {
+    font-size: 9.333333em; /*200/16*/
+    margin: 0 auto;
+    text-shadow: 0 0 50px #000; 
+}
+
+.bravery hgroup h3 {
+    font-size: 2em;
+    color: #a9b6c0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.bravery hgroup h2 {
+    font-size: 3.375em;
+    color: #204665;
+    font-weight: 400;
+}
+
+#help-btn a {
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #690d0d;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+}
+
+@media (max-width: 600px) {
+
+header h1 {
+    font-size: 5.333333em; /*200/16*/
+    margin: 0 auto;
+    text-shadow: 0 0 50px #000; 
+}
+
+.bravery hgroup h3 {
+    font-size: 2em;
+    color: #a9b6c0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.bravery hgroup h2 {
+    font-size: 1.625em;
+    color: #204665;
+    font-weight: 400;
+}
+
+#help-btn {
+    padding: 30px 10px;
+}
+
+#help-btn a {
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #690d0d;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+.heroes hgroup h3 {
+    color: #5682a5;
+    font-weight: 200;
+    font-size: 1.875em; 
+}
+
+.heroes hgroup h2 {
+    color: white;
+    font-size: 4.625em;
+    margin: 30px auto;
+}
+
+.main-background-image {
+    background: url(../img/Boston.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale')";
+}
+
+
+
 }
