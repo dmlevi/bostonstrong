@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="//use.typekit.net/kgx2jrj.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
     </head>
     <body>
         <div class="main-background-image">
@@ -82,9 +82,10 @@
                     <button class="btn btn-large btn-block" type="button" id="help-btn" ><a href="https://www.onefundboston.org" target="_blank">LEARN WHAT YOU CAN DO TO HELP THE VICTIMS</a></button>
                     <div id="skyline-red">
                     <div class="share">
-                    <div class="tweet span4"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Boston thanks first and all responders" data-hashtags="bostonstrong">Tweet</a></div>
-                    <div class="fb-like span4" data-href="https://bostonstrong.us.com/" data-send="false" data-width="450" data-show-faces="true"></div>
-                </div>
+                    <div class="tweet span4"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Boston thanks first and all responders" data-hashtags="bostonstrong">Tweet</a></div> <!-- tweet -->
+                    <div id="fb-root"></div>
+                    <div class="fb-like" data-href="http://www.bostonstrong.us.com/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                </div> <!-- share -->
                     </div> <!-- skyline-red -->
                 </div> <!-- support -->
             </div> <!-- row-fluid -->
@@ -99,6 +100,7 @@
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 
               })();
+
             </script>
             <script>(function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
@@ -107,6 +109,7 @@
               js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
+
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </body>
