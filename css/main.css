@@ -135,8 +135,14 @@ header h3 {
 
 #skyline-grey {
     background: url(../img/skyline-grey.png) no-repeat;
-    height: 488px;
+    height: 470px;
 }
+
+#skyline-red {
+    background: url(../img/skyline-red.png) no-repeat;
+    height: 470px;
+}
+
 
 .heroes h2 {
     font-size: 1.375em; 
@@ -164,6 +170,7 @@ header h3 {
 
 .support {
     background: #740000;
+    padding-top: 20px;
 }
 
 .twitter-timeline {
@@ -174,11 +181,7 @@ header h3 {
 }
 
 #help-btn {
-    background: #ddd;
-}
-
-#help-btn {
-    padding: 10px;
+    padding: 30px 60px;
     text-decoration: none;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -188,6 +191,9 @@ header h3 {
     box-shadow: 0px 10px 0px #570000;
     border: solid #5f0c0c 1px;
     background: #ddd;
+    margin: 0 auto;
+    width: 70%;
+    float: none;
 }
 
 #help-btn a {
@@ -195,11 +201,24 @@ header h3 {
     text-decoration: none;
     font-weight: 400;
     color: #690d0d;
-    font-size: 36px;
+    font-size: 2em;
+    line-height: 1.4em;
 }
 
 #help-button a:hover {
   background: #e62097;
+}
+
+.share {
+    position: relative;
+    top: 400px;
+    width: 300px;
+    margin: 0 auto;
+    left: 40px;
+}
+
+.pls, .uiIconText, #hidden_elem {
+    display: none;
 }
 
 .row-fluid li {
@@ -208,8 +227,4 @@ header h3 {
 
 .row-fluid li {
     margin: 20px 0;
-}
-
-.share {
-    padding: 20px 200px;
 }
