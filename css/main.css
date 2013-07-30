@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+=========Custom CSS ===========================
+*/
+
+
+body {
+        font-family: "proxima-nova",sans-serif;
+}
+
+.main-background-image {
+    background: url(../img/Boston.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale')";
+    height: 70%;
+}
+
+hgroup {
+    text-align: center;
+}
+
+header {
+    padding: 100px 0 60px;
+    font-family: "proxima-nova",sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 2.625em; /*42/16*/
+    font-weight: 200;
+    text-shadow: 0 0 25px #000; 
+}
+
+header h1 {
+    margin: 0 auto;
+    font-size: 13.333333333em; /*200/16*/
+    font-weight: 600;
+    text-shadow: 0 0 50px #000; 
+}
+
+header h3 {
+    font-size: 1.375em; 
+    color: white;
+    text-align: center;
+}
+
+.sports {
+    background: url(../img/sports.png) no-repeat;
+    width: 648px;
+    height: 200px;
+    margin: 0 auto 30px;
+}
+
+.heroes {
+    background: #1a3850;
+    padding-top: 70px;
+}
+
+.heroes hgroup h3 {
+    color: #5682a5;
+    font-weight: 200;
+    font-size: 2.875em; 
+}
+
+.heroes hgroup h2 {
+    margin: 30px auto; 
+    color: white;
+    font-size: 5.625em;
+    font-weight: 600;
+}
+
+
+#skyline-blue {
+    background: url(../img/skyline-blue.png) no-repeat;
+    height: 488px;
+    margin-top: -200px;
+}
+
+#skyline-grey {
+    background: url(../img/skyline-grey.png) no-repeat;
+    height: 470px;
+}
+
+#skyline-red {
+    background: url(../img/skyline-red.png) no-repeat;
+    height: 470px;
+}
+
+
+.heroes h2 {
+    font-size: 1.375em; 
+    text-align: center;
+    font-family: "proxima-nova",sans-serif;
+    color: white;
+}
+
+.bravery {
+	padding-top: 20px;
+    background: #eee;
+}
+
+.bravery hgroup h3 {
+    font-size: 2.5em;
+    color: #a9b6c0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.bravery hgroup h2 {
+    font-size: 4.375em;
+    color: #204665;
+    font-weight: 600;
+}
+
+.bravery img {
+	width: 75%;
+}
+
+.support {
+    background: #740000;
+    padding-top: 60px;
+}
+
+.twitter-timeline {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#help-btn {
+    padding: 30px 0;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 0px #570000;
+    -moz-box-shadow: 0px 10px 0px #570000;
+    box-shadow: 0px 10px 0px #570000;
+    border: solid #5f0c0c 1px;
+    background: #ddd;
+    margin: 0 auto;
+    width: 70%;
+    float: none;
+}
+
+#help-btn a {
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #690d0d;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.25);
+}
+
+.share {
+    position: relative;
+    top: 400px;
+    width: 300px;
+    margin: 0 auto;
+    left: 60px;
+}
+
+.pls, .uiIconText, #hidden_elem {
+    display: none;
+}
+
+.row-fluid li {
+    text-align: center;
+}
+
+.row-fluid li {
+    margin: 20px 0;
+}
+
+@media (max-width: 940px) {
+
+
+header h1 {
+    font-size: 9.333333em; /*200/16*/
+    margin: 0 auto;
+    text-shadow: 0 0 50px #000; 
+}
+
+.bravery hgroup h3 {
+    font-size: 2em;
+    color: #a9b6c0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.bravery hgroup h2 {
+    font-size: 3.375em;
+    color: #204665;
+    font-weight: 400;
+}
+
+#help-btn a {
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #690d0d;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+}
+
+@media (max-width: 600px) {
+
+header h1 {
+    font-size: 5.333333em; /*200/16*/
+    margin: 0 auto;
+    text-shadow: 0 0 50px #000; 
+}
+
+.bravery hgroup h3 {
+    font-size: 2em;
+    color: #a9b6c0;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.bravery hgroup h2 {
+    font-size: 1.625em;
+    color: #204665;
+    font-weight: 400;
+}
+
+#help-btn {
+    padding: 30px 10px;
+}
+
+#help-btn a {
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #690d0d;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+.heroes hgroup h3 {
+    color: #5682a5;
+    font-weight: 200;
+    font-size: 1.875em; 
+}
+
+.heroes hgroup h2 {
+    color: white;
+    font-size: 4.625em;
+    margin: 30px auto;
+}
+
+.main-background-image {
+    background: url(../img/Boston.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Boston.jpg', sizingMethod='scale')";
+}
+
+
+
+}
